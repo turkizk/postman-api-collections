@@ -1,43 +1,19 @@
-# Postman API Collections
+# Postman Test Scripts
 
-This repository contains Postman collections, environments, and scripts
-used for testing, validating, and documenting REST APIs.
+This repository contains **Postman test and pre-request scripts** designed for
+real-world API testing and automation scenarios.
 
-It focuses on **real-world API testing scenarios**, including authentication,
-token handling, and reusable request structures.
-
----
-
-## 📌 What’s Included
-
-- Postman collections for different API domains
-- Environment configurations
-- Authentication and token management scripts
-- Reusable test and pre-request scripts
-- Example requests for common API patterns
+The focus is on **Postman scripting**, not just collections:
+token extraction, environment variable management, and reusable test logic.
 
 ---
 
-## 📂 Repository Structure
+## 🎯 Purpose
 
-```text
-postman-collections/
-├── collections/
-│   ├── auth/
-│   │   └── auth_collection.json
-│   ├── payments/
-│   │   └── payment_collection.json
-│   └── orders/
-│       └── order_collection.json
-│
-├── environments/
-│   ├── local.environment.json
-│   ├── staging.environment.json
-│   └── production.environment.json
-│
-├── scripts/
-│   ├── token_extraction.js
-│   ├── common_tests.js
-│   └── pre_request_setup.js
-│
-└── README.md
+- Demonstrate practical Postman scripting skills
+- Automate authentication and token handling
+- Provide reusable test logic for API requests
+- Serve as a reference and portfolio for API testing workflows
+
+---
+

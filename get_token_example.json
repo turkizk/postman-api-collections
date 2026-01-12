@@ -1,0 +1,8 @@
+const responseJson = pm.response.json();
+const token = responseJson.data.token;
+
+pm.environment.set("token", token);
+
+pm.test("Token is extracted and stored", function () {
+    pm.expect(token).to.be.a("string");
+});
